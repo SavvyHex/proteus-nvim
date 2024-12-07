@@ -36,3 +36,6 @@ vim.keymap.set("n", "<leader>tp", ":tabp<CR>", opts) --  go to previous tab
 
 -- Toggle line wrapping
 vim.keymap.set("n", "<leader>lw", "<cmd>set wrap!<CR>", opts)
+
+-- Removing highlight
+vim.keymap.set("n", "<Esc>", ":noh<CR>", opts)
