@@ -165,7 +165,6 @@ return {
 			clangd = {},
 			ktlint = {},
 			kotlin_language_server = {},
-			java_language_server = {},
 			ruff = {},
 			pylsp = {
 				settings = {
