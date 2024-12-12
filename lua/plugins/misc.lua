@@ -21,4 +21,7 @@ return {
 		dependencies = { "nvim-lua/plenary.nvim" },
 		opts = { signs = false },
 	},
+	{
+		"ThePrimeagen/vim-be-good",
+	},
 }
