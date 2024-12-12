@@ -25,4 +25,5 @@ require("lazy").setup({
 	require("plugins.comment"),
 	require("plugins.alpha"),
 	require("plugins.misc"),
+	require("plugins.leetcode"),
 })
