@@ -1,8 +1,8 @@
 return {
-	"catppuccin/nvim",
-	name = "catppuccin",
+	"kdheepak/monochrome.nvim",
+	name = "monochrome",
 	priority = 1000,
 	config = function()
-		vim.cmd.colorscheme 'catppuccin'
-	end
+		vim.cmd.colorscheme("monochrome")
+	end,
 }
