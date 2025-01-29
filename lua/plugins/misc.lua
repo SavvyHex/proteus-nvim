@@ -24,4 +24,11 @@ return {
 	{
 		"ThePrimeagen/vim-be-good",
 	},
+	{
+		-- Liver Server
+		"barrett-ruth/live-server.nvim",
+		build = "npm add -g live-server",
+		cmd = { "LiveServerStart", "LiveServerStop" },
+		config = true,
+	},
 }
