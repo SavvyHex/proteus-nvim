@@ -162,7 +162,9 @@ return {
 			--
 			-- But for many setups, the LSP (`tsserver`) will work just fine
 			ts_ls = {}, -- tsserver is deprecated
-			clangd = {},
+			clangd = {
+				offsetEncoding = "utf-8",
+			},
 			ktlint = {},
 			kotlin_language_server = {},
 			ruff = {},
