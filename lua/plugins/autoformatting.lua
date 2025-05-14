@@ -5,7 +5,7 @@ return {
     'jayp0521/mason-null-ls.nvim', -- ensure dependencies are installed
   },
   config = function()
-    local null_ls = require 'null-ls'
+    local null_ls = require 'none-ls'
     local formatting = null_ls.builtins.formatting -- to setup formatters
     local diagnostics = null_ls.builtins.diagnostics -- to setup linters
 
